@@ -1,0 +1,4 @@
+- 👋 Hi, I’m @ApplehatDot
+- 👀 I’m interested in everything related to Computers.
+- 🌱 I’m currently learning .NET development (is it used still?)
+- 😄 Pronouns: he/him or rather email 
