@@ -1,4 +1,4 @@
 - 👋 Hi, I’m @ApplehatDot
 - 👀 I’m interested in everything related to Computers.
-- 🌱 I’m currently learning VB.NET development (is it used still?) aswell some other languages
+- 🌱 I’m currently learning C
 - 😄 Pronouns: he/him
