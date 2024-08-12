@@ -4,10 +4,6 @@ Hello, welcome to my Github profile 👋🍎
 #include <stdlib.h>
 #include <string.h>
 
-// About Me
-#include <stdlib.h>
-#include <string.h>
-
 typedef struct {
     nickname[70];
     pronouns[10];
