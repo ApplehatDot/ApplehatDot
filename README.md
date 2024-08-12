@@ -16,7 +16,7 @@ void Display_AboutMe(AboutMe person) {
     printf("Nickname: %s\n", person.nickname);
     printf("Pronouns: %s\n", person.pronouns);
     printf("Country: %s\n", person.country);
-    printf("Interests: %s\n", person.interests)
+    printf("Interests: %s\n", person.interests);
     printf("Repositories: %s\n", person.repositories);
 }
 
