@@ -4,10 +4,14 @@ Hello, welcome to my Github profile 👋🍎
 #include <stdlib.h>
 #include <string.h>
 
+// About Me
+#include <stdlib.h>
+#include <string.h>
+
 typedef struct {
-  nickname[70];
-  pronouns[10];
-  interests[100];
+    nickname[70];
+    pronouns[10];
+    interests[100];
 } AboutMe;
 
 void Display_AboutMe(AboutMe person) {
@@ -17,14 +21,14 @@ void Display_AboutMe(AboutMe person) {
 }
 
 int main(){
-  AboutMe me;
+    AboutMe me;
 
-  strcpy(me.nickname, "ApplehatDot (ApplehatDoesStuff)");
-  strcpy(me.pronouns, "he/him");
-  strcpy(me.interests, "old hardware and software, programming, using various OS' (...)")
-  Display_AboutMe(&me);
+    strcpy(me.nickname, "ApplehatDot (ApplehatDoesStuff)");
+    strcpy(me.pronouns, "he/him");
+    strcpy(me.interests, "old hardware and software, programming, using various OS' (...)")
+    Display_AboutMe(&me);
 
-  return 0;
+    return 0;
 }
 
 ```
