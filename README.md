@@ -5,11 +5,11 @@ Hello, welcome to my Github profile 👋🍎
 #include <string.h>
 
 typedef struct {
-    nickname[70];
-    pronouns[10];
-    country[30];
-    interests[100];
-    repositories[100];
+    char nickname[70];
+    char pronouns[10];
+    char country[30];
+    char interests[100];
+    char* repositories;
 } AboutMe;
 
 void Display_AboutMe(AboutMe person) {
@@ -27,7 +27,7 @@ int main(){
     strcpy(me.pronouns, "he/him");
     strcpy(me.country, "Poland");
     strcpy(me.interests, "old hardware and software, programming, using various OS' (...)");
-    strcpy(me.repositories, "DVD_GL, SNEK_GL and OpenGLHeart");
+    strcpy(me.repositories, "DVD_GL, SNEK_GL OpenGLHeart, RoseGL, GWM, Win32AboutDialog");
 
     Display_AboutMe(&me);
 
