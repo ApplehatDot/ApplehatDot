@@ -6,6 +6,7 @@ Hello, welcome to my Github profile 👋🍎
 
 typedef struct {
     char nickname[70];
+    char PLang[70];
     char pronouns[10];
     char country[30];
     char interests[100];
@@ -14,7 +15,8 @@ typedef struct {
 
 void Display_AboutMe(AboutMe person) {
     printf("Nickname: %s\n", person.nickname);
-    printf("Pronouns: %s\n", person.pronouns);
+    printf("Programming Languages: %s\n", person.PLang);
+    printf("Pronouns: %s\n", person.pro nouns);
     printf("Country: %s\n", person.country);
     printf("Interests: %s\n", person.interests);
     printf("Repositories: %s\n", person.repositories);
@@ -24,6 +26,7 @@ int main(){
     AboutMe me;
 
     strcpy(me.nickname, "ApplehatDot (ApplehatDoesStuff)");
+    strcpy(me.PLang, "C/C++");
     strcpy(me.pronouns, "he/him");
     strcpy(me.country, "Poland");
     strcpy(me.interests, "old hardware and software, programming, using various OS' (...)");
